@@ -13,6 +13,7 @@
 		20FB3C492044447500DCE648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20FB3C482044447500DCE648 /* Assets.xcassets */; };
 		20FB3C4C2044447500DCE648 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20FB3C4A2044447500DCE648 /* LaunchScreen.storyboard */; };
 		20FB3C572044447500DCE648 /* MicroLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FB3C562044447500DCE648 /* MicroLoggerTests.swift */; };
+		20FB3C632044542E00DCE648 /* MLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FB3C622044542E00DCE648 /* MLogger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		20FB3C522044447500DCE648 /* microLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = microLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20FB3C562044447500DCE648 /* MicroLoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicroLoggerTests.swift; sourceTree = "<group>"; };
 		20FB3C582044447500DCE648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20FB3C622044542E00DCE648 /* MLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MLogger.swift; path = ../../MLogger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		20FB3C402044447500DCE648 /* microLogger */ = {
 			isa = PBXGroup;
 			children = (
+				20FB3C622044542E00DCE648 /* MLogger.swift */,
 				20FB3C412044447500DCE648 /* AppDelegate.swift */,
 				20FB3C432044447500DCE648 /* ViewController.swift */,
 				20FB3C452044447500DCE648 /* Main.storyboard */,
@@ -217,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20FB3C442044447500DCE648 /* ViewController.swift in Sources */,
+				20FB3C632044542E00DCE648 /* MLogger.swift in Sources */,
 				20FB3C422044447500DCE648 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

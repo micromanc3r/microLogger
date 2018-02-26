@@ -12,6 +12,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        MLogger.logDebug(sender: self,
+                         andMessage: "Main view loaded")
     }
 
 }
