@@ -1,2 +1,2 @@
 # microLogger
-Lightweight logger for swift
+Lightweight swift logger

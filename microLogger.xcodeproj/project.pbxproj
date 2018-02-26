@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20FB3C422044447500DCE648 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FB3C412044447500DCE648 /* AppDelegate.swift */; };
+		20FB3C442044447500DCE648 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FB3C432044447500DCE648 /* ViewController.swift */; };
+		20FB3C472044447500DCE648 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20FB3C452044447500DCE648 /* Main.storyboard */; };
+		20FB3C492044447500DCE648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20FB3C482044447500DCE648 /* Assets.xcassets */; };
+		20FB3C4C2044447500DCE648 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20FB3C4A2044447500DCE648 /* LaunchScreen.storyboard */; };
+		20FB3C572044447500DCE648 /* MicroLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FB3C562044447500DCE648 /* MicroLoggerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20FB3C532044447500DCE648 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20FB3C362044447500DCE648 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20FB3C3D2044447500DCE648;
+			remoteInfo = microLogger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20FB3C3E2044447500DCE648 /* microLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = microLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20FB3C412044447500DCE648 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20FB3C432044447500DCE648 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20FB3C462044447500DCE648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20FB3C482044447500DCE648 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20FB3C4B2044447500DCE648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20FB3C4D2044447500DCE648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20FB3C522044447500DCE648 /* microLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = microLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20FB3C562044447500DCE648 /* MicroLoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicroLoggerTests.swift; sourceTree = "<group>"; };
+		20FB3C582044447500DCE648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20FB3C3B2044447500DCE648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20FB3C4F2044447500DCE648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20FB3C352044447500DCE648 = {
+			isa = PBXGroup;
+			children = (
+				20FB3C402044447500DCE648 /* microLogger */,
+				20FB3C552044447500DCE648 /* microLoggerTests */,
+				20FB3C3F2044447500DCE648 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20FB3C3F2044447500DCE648 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20FB3C3E2044447500DCE648 /* microLogger.app */,
+				20FB3C522044447500DCE648 /* microLoggerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20FB3C402044447500DCE648 /* microLogger */ = {
+			isa = PBXGroup;
+			children = (
+				20FB3C412044447500DCE648 /* AppDelegate.swift */,
+				20FB3C432044447500DCE648 /* ViewController.swift */,
+				20FB3C452044447500DCE648 /* Main.storyboard */,
+				20FB3C482044447500DCE648 /* Assets.xcassets */,
+				20FB3C4A2044447500DCE648 /* LaunchScreen.storyboard */,
+				20FB3C4D2044447500DCE648 /* Info.plist */,
+			);
+			path = microLogger;
+			sourceTree = "<group>";
+		};
+		20FB3C552044447500DCE648 /* microLoggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				20FB3C562044447500DCE648 /* MicroLoggerTests.swift */,
+				20FB3C582044447500DCE648 /* Info.plist */,
+			);
+			path = microLoggerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20FB3C3D2044447500DCE648 /* microLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20FB3C5B2044447500DCE648 /* Build configuration list for PBXNativeTarget "microLogger" */;
+			buildPhases = (
+				20FB3C61204445A600DCE648 /* ShellScript */,
+				20FB3C3A2044447500DCE648 /* Sources */,
+				20FB3C3B2044447500DCE648 /* Frameworks */,
+				20FB3C3C2044447500DCE648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = microLogger;
+			productName = microLogger;
+			productReference = 20FB3C3E2044447500DCE648 /* microLogger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20FB3C512044447500DCE648 /* microLoggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20FB3C5E2044447500DCE648 /* Build configuration list for PBXNativeTarget "microLoggerTests" */;
+			buildPhases = (
+				20FB3C4E2044447500DCE648 /* Sources */,
+				20FB3C4F2044447500DCE648 /* Frameworks */,
+				20FB3C502044447500DCE648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20FB3C542044447500DCE648 /* PBXTargetDependency */,
+			);
+			name = microLoggerTests;
+			productName = microLoggerTests;
+			productReference = 20FB3C522044447500DCE648 /* microLoggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20FB3C362044447500DCE648 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = micromanc3r;
+				TargetAttributes = {
+					20FB3C3D2044447500DCE648 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					20FB3C512044447500DCE648 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20FB3C3D2044447500DCE648;
+					};
+				};
+			};
+			buildConfigurationList = 20FB3C392044447500DCE648 /* Build configuration list for PBXProject "microLogger" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20FB3C352044447500DCE648;
+			productRefGroup = 20FB3C3F2044447500DCE648 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20FB3C3D2044447500DCE648 /* microLogger */,
+				20FB3C512044447500DCE648 /* microLoggerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20FB3C3C2044447500DCE648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20FB3C4C2044447500DCE648 /* LaunchScreen.storyboard in Resources */,
+				20FB3C492044447500DCE648 /* Assets.xcassets in Resources */,
+				20FB3C472044447500DCE648 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20FB3C502044447500DCE648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20FB3C61204445A600DCE648 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20FB3C3A2044447500DCE648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20FB3C442044447500DCE648 /* ViewController.swift in Sources */,
+				20FB3C422044447500DCE648 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20FB3C4E2044447500DCE648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20FB3C572044447500DCE648 /* MicroLoggerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20FB3C542044447500DCE648 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20FB3C3D2044447500DCE648 /* microLogger */;
+			targetProxy = 20FB3C532044447500DCE648 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20FB3C452044447500DCE648 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20FB3C462044447500DCE648 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20FB3C4A2044447500DCE648 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20FB3C4B2044447500DCE648 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20FB3C592044447500DCE648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20FB3C5A2044447500DCE648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20FB3C5C2044447500DCE648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65NTCVYUA7;
+				INFOPLIST_FILE = microLogger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.micro.logger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20FB3C5D2044447500DCE648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65NTCVYUA7;
+				INFOPLIST_FILE = microLogger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.micro.logger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		20FB3C5F2044447500DCE648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65NTCVYUA7;
+				INFOPLIST_FILE = microLoggerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.micro..microLoggerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/microLogger.app/microLogger";
+			};
+			name = Debug;
+		};
+		20FB3C602044447500DCE648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65NTCVYUA7;
+				INFOPLIST_FILE = microLoggerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.micro..microLoggerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/microLogger.app/microLogger";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20FB3C392044447500DCE648 /* Build configuration list for PBXProject "microLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20FB3C592044447500DCE648 /* Debug */,
+				20FB3C5A2044447500DCE648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20FB3C5B2044447500DCE648 /* Build configuration list for PBXNativeTarget "microLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20FB3C5C2044447500DCE648 /* Debug */,
+				20FB3C5D2044447500DCE648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20FB3C5E2044447500DCE648 /* Build configuration list for PBXNativeTarget "microLoggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20FB3C5F2044447500DCE648 /* Debug */,
+				20FB3C602044447500DCE648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20FB3C362044447500DCE648 /* Project object */;
+}
