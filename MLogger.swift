@@ -23,6 +23,7 @@ class MLogger {
     private static let errorTag = "ERROR"
     
     private static let microTimeFormat = "dd.MM.yyyy | HH:mm:ss.SSS"
+    private static let formatter = DateFormatter()
     
     static var logLevel: MLogLevel = .error
     static var logTimeFormat: String?
@@ -81,7 +82,6 @@ class MLogger {
     }
     
     private class func formatedTimestamp() -> String {
-        let formatter = DateFormatter()
         formatter.dateFormat = logTimeFormat ?? microTimeFormat
         return formatter.string(from: Date())
     }
