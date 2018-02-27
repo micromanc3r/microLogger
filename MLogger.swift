@@ -6,13 +6,13 @@
 //  Copyright © 2018 micromanc3r. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-enum MLogLevel: Int {
-    case logLevelVerbose = 0
-    case logLevelDebug = 1
-    case logLevelWarning = 2
-    case logLevelError = 3
+enum MLogLevel: Int { //treba prefixy?
+    case verbose = 0
+    case debug = 1
+    case warning = 2
+    case error = 3
 }
 
 class MLogger {
@@ -22,46 +22,68 @@ class MLogger {
     private static let warningTag = "WARNING"
     private static let errorTag = "ERROR"
     
-    static var logLevel: MLogLevel = .logLevelError
+    private static let microTimeFormat = "dd.MM.yyyy | HH:mm:ss.SSS"
+    
+    static var logLevel: MLogLevel = .error
+    static var logTimeFormat: String?
     
     ////////////////////////////////
     // MARK: - public log methods
-    class func logVerbose(sender: Any, andMessage logMessage: String ) {
-        if MLogger.logLevel.rawValue <= MLogLevel.logLevelVerbose.rawValue {
-            self.internalLogWithLevel(lvlTag: verboseTag,
-                                      tag: tagFrom(sender: sender),
-                                      logMessage: logMessage)
+    class func logVerbose(sender: Any, andMessage message: String) {
+        guard canLog(forLevel: .verbose) else {
+            return
         }
+        
+        self.microLog(withLevel: verboseTag,
+                      sender: sender,
+                      message: message)
     }
     
-    class func logDebug(sender: Any, andMessage logMessage: String ) {
-        if MLogger.logLevel.rawValue <= MLogLevel.logLevelDebug.rawValue {
-            self.internalLogWithLevel(lvlTag: debugTag,
-                                      tag: tagFrom(sender: sender),
-                                      logMessage: logMessage)
+    class func logDebug(sender: Any, andMessage message: String) {
+        guard canLog(forLevel: .debug) else {
+            return
         }
+        
+        self.microLog(withLevel: debugTag,
+                      sender: sender,
+                      message: message)
     }
     
-    class func logWarning(sender: Any, andMessage logMessage: String ) {
-        if MLogger.logLevel.rawValue <= MLogLevel.logLevelWarning.rawValue {
-            self.internalLogWithLevel(lvlTag: warningTag,
-                                      tag: tagFrom(sender: sender),
-                                      logMessage: logMessage)
+    class func logWarning(sender: Any, andMessage message: String) {
+        guard canLog(forLevel: .warning) else {
+            return
         }
+        
+        self.microLog(withLevel: warningTag,
+                      sender: sender,
+                      message: message)
     }
     
-    class func logError(sender: Any, andMessage logMessage: String ) {
-        if MLogger.logLevel.rawValue <= MLogLevel.logLevelError.rawValue {
-            self.internalLogWithLevel(lvlTag: errorTag,
-                                      tag: tagFrom(sender: sender),
-                                      logMessage: logMessage)
+    class func logError(sender: Any, andMessage message: String) {
+        guard canLog(forLevel: .error) else {
+            return
         }
+        
+        self.microLog(withLevel: errorTag,
+                      sender: sender,
+                      message: message)
     }
     
     ////////////////////////////////
     // MARK: - Private methods
-    private class func internalLogWithLevel(lvlTag: String, tag: String, logMessage: String) {
-        print("|", lvlTag, "|", tag, "|", logMessage)
+    private class func canLog(forLevel level: MLogLevel) -> Bool {
+        return logLevel.rawValue <= level.rawValue
+    }
+    
+    private class func microLog(withLevel lvlTag: String, sender: Any, message: String) {
+        let stringTag = tagFrom(sender: sender)
+        print(formatedTimestamp(), "|", lvlTag, "|", stringTag, "|", message)
+    }
+    
+    private class func formatedTimestamp() -> String {
+        let formatter = DateFormatter()
+        formatter.dateFormat = logTimeFormat ?? microTimeFormat
+        return formatter.string(from: Date())
     }
     
     private class func tagFrom(sender: Any) -> String {

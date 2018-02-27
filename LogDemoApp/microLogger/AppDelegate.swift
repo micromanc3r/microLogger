@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        MLogger.logLevel = .logLevelDebug
+        MLogger.logLevel = .debug
         MLogger.logDebug(sender: self,
                          andMessage: "Log level set.")
         
