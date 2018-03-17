@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MicroLogger
 
 class ViewController: UIViewController {
 

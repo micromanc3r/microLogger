@@ -8,14 +8,14 @@
 
 import Foundation
 
-enum MLogLevel: Int { //treba prefixy?
+public enum MLogLevel: Int { //treba prefixy?
     case verbose = 0
     case debug = 1
     case warning = 2
     case error = 3
 }
 
-class MLogger {
+public class MLogger {
     
     private static let verboseTag = "VERBOSE"
     private static let debugTag = "DEBUG"
@@ -25,12 +25,12 @@ class MLogger {
     private static let microTimeFormat = "dd.MM.yyyy | HH:mm:ss.SSS"
     private static let formatter = DateFormatter()
     
-    static var logLevel: MLogLevel = .error
-    static var logTimeFormat: String?
+    public static var logLevel: MLogLevel = .error
+    public static var logTimeFormat: String?
     
     ////////////////////////////////
     // MARK: - public log methods
-    class func logVerbose(sender: Any, andMessage message: String) {
+    public class func logVerbose(sender: Any, andMessage message: String) {
         guard canLog(forLevel: .verbose) else {
             return
         }
@@ -40,7 +40,7 @@ class MLogger {
                       message: message)
     }
     
-    class func logDebug(sender: Any, andMessage message: String) {
+    public class func logDebug(sender: Any, andMessage message: String) {
         guard canLog(forLevel: .debug) else {
             return
         }
@@ -50,7 +50,7 @@ class MLogger {
                       message: message)
     }
     
-    class func logWarning(sender: Any, andMessage message: String) {
+    public class func logWarning(sender: Any, andMessage message: String) {
         guard canLog(forLevel: .warning) else {
             return
         }
@@ -60,7 +60,7 @@ class MLogger {
                       message: message)
     }
     
-    class func logError(sender: Any, andMessage message: String) {
+    public class func logError(sender: Any, andMessage message: String) {
         guard canLog(forLevel: .error) else {
             return
         }
@@ -72,21 +72,21 @@ class MLogger {
     
     ////////////////////////////////
     // MARK: - Private methods
-    private class func canLog(forLevel level: MLogLevel) -> Bool {
+    class func canLog(forLevel level: MLogLevel) -> Bool {
         return logLevel.rawValue <= level.rawValue
     }
     
-    private class func microLog(withLevel lvlTag: String, sender: Any, message: String) {
+    class func microLog(withLevel lvlTag: String, sender: Any, message: String) {
         let stringTag = tagFrom(sender: sender)
         print(formatedTimestamp(), "|", lvlTag, "|", stringTag, "|", message)
     }
     
-    private class func formatedTimestamp() -> String {
+    class func formatedTimestamp() -> String {
         formatter.dateFormat = logTimeFormat ?? microTimeFormat
         return formatter.string(from: Date())
     }
     
-    private class func tagFrom(sender: Any) -> String {
+    class func tagFrom(sender: Any) -> String {
         return NSStringFromClass((type(of: sender) as? AnyClass) ?? sender as? AnyClass ?? MLogger.self)
     }
     
