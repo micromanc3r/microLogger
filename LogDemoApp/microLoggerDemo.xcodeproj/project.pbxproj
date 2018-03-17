@@ -12,43 +12,22 @@
 		20FB3C472044447500DCE648 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20FB3C452044447500DCE648 /* Main.storyboard */; };
 		20FB3C492044447500DCE648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20FB3C482044447500DCE648 /* Assets.xcassets */; };
 		20FB3C4C2044447500DCE648 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20FB3C4A2044447500DCE648 /* LaunchScreen.storyboard */; };
-		20FB3C572044447500DCE648 /* MicroLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FB3C562044447500DCE648 /* MicroLoggerTests.swift */; };
 		20FB3C632044542E00DCE648 /* MLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FB3C622044542E00DCE648 /* MLogger.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		20FB3C532044447500DCE648 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 20FB3C362044447500DCE648 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 20FB3C3D2044447500DCE648;
-			remoteInfo = microLogger;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		20FB3C3E2044447500DCE648 /* microLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = microLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20FB3C3E2044447500DCE648 /* microLoggerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = microLoggerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20FB3C412044447500DCE648 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20FB3C432044447500DCE648 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		20FB3C462044447500DCE648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20FB3C482044447500DCE648 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20FB3C4B2044447500DCE648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20FB3C4D2044447500DCE648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20FB3C522044447500DCE648 /* microLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = microLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		20FB3C562044447500DCE648 /* MicroLoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicroLoggerTests.swift; sourceTree = "<group>"; };
-		20FB3C582044447500DCE648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20FB3C622044542E00DCE648 /* MLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MLogger.swift; path = ../../MLogger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		20FB3C3B2044447500DCE648 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		20FB3C4F2044447500DCE648 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -61,8 +40,7 @@
 		20FB3C352044447500DCE648 = {
 			isa = PBXGroup;
 			children = (
-				20FB3C402044447500DCE648 /* microLogger */,
-				20FB3C552044447500DCE648 /* microLoggerTests */,
+				20FB3C402044447500DCE648 /* microLoggerDemo */,
 				20FB3C3F2044447500DCE648 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,13 +48,12 @@
 		20FB3C3F2044447500DCE648 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				20FB3C3E2044447500DCE648 /* microLogger.app */,
-				20FB3C522044447500DCE648 /* microLoggerTests.xctest */,
+				20FB3C3E2044447500DCE648 /* microLoggerDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		20FB3C402044447500DCE648 /* microLogger */ = {
+		20FB3C402044447500DCE648 /* microLoggerDemo */ = {
 			isa = PBXGroup;
 			children = (
 				20FB3C622044542E00DCE648 /* MLogger.swift */,
@@ -87,24 +64,15 @@
 				20FB3C4A2044447500DCE648 /* LaunchScreen.storyboard */,
 				20FB3C4D2044447500DCE648 /* Info.plist */,
 			);
-			path = microLogger;
-			sourceTree = "<group>";
-		};
-		20FB3C552044447500DCE648 /* microLoggerTests */ = {
-			isa = PBXGroup;
-			children = (
-				20FB3C562044447500DCE648 /* MicroLoggerTests.swift */,
-				20FB3C582044447500DCE648 /* Info.plist */,
-			);
-			path = microLoggerTests;
+			path = microLoggerDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		20FB3C3D2044447500DCE648 /* microLogger */ = {
+		20FB3C3D2044447500DCE648 /* microLoggerDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20FB3C5B2044447500DCE648 /* Build configuration list for PBXNativeTarget "microLogger" */;
+			buildConfigurationList = 20FB3C5B2044447500DCE648 /* Build configuration list for PBXNativeTarget "microLoggerDemo" */;
 			buildPhases = (
 				20FB3C61204445A600DCE648 /* ShellScript */,
 				20FB3C3A2044447500DCE648 /* Sources */,
@@ -115,28 +83,10 @@
 			);
 			dependencies = (
 			);
-			name = microLogger;
+			name = microLoggerDemo;
 			productName = microLogger;
-			productReference = 20FB3C3E2044447500DCE648 /* microLogger.app */;
+			productReference = 20FB3C3E2044447500DCE648 /* microLoggerDemo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		20FB3C512044447500DCE648 /* microLoggerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 20FB3C5E2044447500DCE648 /* Build configuration list for PBXNativeTarget "microLoggerTests" */;
-			buildPhases = (
-				20FB3C4E2044447500DCE648 /* Sources */,
-				20FB3C4F2044447500DCE648 /* Frameworks */,
-				20FB3C502044447500DCE648 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				20FB3C542044447500DCE648 /* PBXTargetDependency */,
-			);
-			name = microLoggerTests;
-			productName = microLoggerTests;
-			productReference = 20FB3C522044447500DCE648 /* microLoggerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -152,14 +102,9 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
-					20FB3C512044447500DCE648 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 20FB3C3D2044447500DCE648;
-					};
 				};
 			};
-			buildConfigurationList = 20FB3C392044447500DCE648 /* Build configuration list for PBXProject "microLogger" */;
+			buildConfigurationList = 20FB3C392044447500DCE648 /* Build configuration list for PBXProject "microLoggerDemo" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -172,8 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				20FB3C3D2044447500DCE648 /* microLogger */,
-				20FB3C512044447500DCE648 /* microLoggerTests */,
+				20FB3C3D2044447500DCE648 /* microLoggerDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -186,13 +130,6 @@
 				20FB3C4C2044447500DCE648 /* LaunchScreen.storyboard in Resources */,
 				20FB3C492044447500DCE648 /* Assets.xcassets in Resources */,
 				20FB3C472044447500DCE648 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		20FB3C502044447500DCE648 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,23 +162,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20FB3C4E2044447500DCE648 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				20FB3C572044447500DCE648 /* MicroLoggerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		20FB3C542044447500DCE648 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 20FB3C3D2044447500DCE648 /* microLogger */;
-			targetProxy = 20FB3C532044447500DCE648 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		20FB3C452044447500DCE648 /* Main.storyboard */ = {
@@ -376,7 +297,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 65NTCVYUA7;
-				INFOPLIST_FILE = microLogger/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/microLoggerDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.micro.logger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -391,7 +312,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 65NTCVYUA7;
-				INFOPLIST_FILE = microLogger/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/microLoggerDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.micro.logger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -400,44 +321,10 @@
 			};
 			name = Release;
 		};
-		20FB3C5F2044447500DCE648 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 65NTCVYUA7;
-				INFOPLIST_FILE = microLoggerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.micro..microLoggerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/microLogger.app/microLogger";
-			};
-			name = Debug;
-		};
-		20FB3C602044447500DCE648 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 65NTCVYUA7;
-				INFOPLIST_FILE = microLoggerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.micro..microLoggerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/microLogger.app/microLogger";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		20FB3C392044447500DCE648 /* Build configuration list for PBXProject "microLogger" */ = {
+		20FB3C392044447500DCE648 /* Build configuration list for PBXProject "microLoggerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				20FB3C592044447500DCE648 /* Debug */,
@@ -446,20 +333,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		20FB3C5B2044447500DCE648 /* Build configuration list for PBXNativeTarget "microLogger" */ = {
+		20FB3C5B2044447500DCE648 /* Build configuration list for PBXNativeTarget "microLoggerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				20FB3C5C2044447500DCE648 /* Debug */,
 				20FB3C5D2044447500DCE648 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		20FB3C5E2044447500DCE648 /* Build configuration list for PBXNativeTarget "microLoggerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				20FB3C5F2044447500DCE648 /* Debug */,
-				20FB3C602044447500DCE648 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
