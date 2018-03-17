@@ -7,38 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20D5C9BA205DA5F600D0A956 /* microLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D5C9B4205DA56B00D0A956 /* microLogger.framework */; };
-		20D5C9BB205DA5F600D0A956 /* microLogger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 20D5C9B4205DA56B00D0A956 /* microLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		20FB3C422044447500DCE648 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FB3C412044447500DCE648 /* AppDelegate.swift */; };
 		20FB3C442044447500DCE648 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FB3C432044447500DCE648 /* ViewController.swift */; };
 		20FB3C472044447500DCE648 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20FB3C452044447500DCE648 /* Main.storyboard */; };
 		20FB3C492044447500DCE648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20FB3C482044447500DCE648 /* Assets.xcassets */; };
 		20FB3C4C2044447500DCE648 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20FB3C4A2044447500DCE648 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		20D5C9B3205DA56B00D0A956 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 20D5C9AE205DA56B00D0A956 /* microLogger.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 20D5C990205D86F100D0A956;
-			remoteInfo = microLogger;
-		};
-		20D5C9B5205DA56B00D0A956 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 20D5C9AE205DA56B00D0A956 /* microLogger.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 20D5C999205D86F100D0A956;
-			remoteInfo = microLoggerTests;
-		};
-		20D5C9BC205DA5F600D0A956 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 20D5C9AE205DA56B00D0A956 /* microLogger.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 20D5C98F205D86F100D0A956;
-			remoteInfo = microLogger;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		20D5C9BE205DA5F600D0A956 /* Embed Frameworks */ = {
@@ -47,7 +21,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				20D5C9BB205DA5F600D0A956 /* microLogger.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -55,7 +28,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		20D5C9AE205DA56B00D0A956 /* microLogger.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = microLogger.xcodeproj; path = ../microLogger/microLogger.xcodeproj; sourceTree = "<group>"; };
 		20FB3C3E2044447500DCE648 /* microLoggerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = microLoggerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20FB3C412044447500DCE648 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20FB3C432044447500DCE648 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,26 +42,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20D5C9BA205DA5F600D0A956 /* microLogger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		20D5C9AF205DA56B00D0A956 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				20D5C9B4205DA56B00D0A956 /* microLogger.framework */,
-				20D5C9B6205DA56B00D0A956 /* microLoggerTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		20FB3C352044447500DCE648 = {
 			isa = PBXGroup;
 			children = (
-				20D5C9AE205DA56B00D0A956 /* microLogger.xcodeproj */,
 				20FB3C402044447500DCE648 /* microLoggerDemo */,
 				20FB3C3F2044447500DCE648 /* Products */,
 			);
@@ -132,7 +93,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				20D5C9BD205DA5F600D0A956 /* PBXTargetDependency */,
 			);
 			name = microLoggerDemo;
 			productName = microLogger;
@@ -166,35 +126,12 @@
 			mainGroup = 20FB3C352044447500DCE648;
 			productRefGroup = 20FB3C3F2044447500DCE648 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 20D5C9AF205DA56B00D0A956 /* Products */;
-					ProjectRef = 20D5C9AE205DA56B00D0A956 /* microLogger.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				20FB3C3D2044447500DCE648 /* microLoggerDemo */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		20D5C9B4205DA56B00D0A956 /* microLogger.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = microLogger.framework;
-			remoteRef = 20D5C9B3205DA56B00D0A956 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		20D5C9B6205DA56B00D0A956 /* microLoggerTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = microLoggerTests.xctest;
-			remoteRef = 20D5C9B5205DA56B00D0A956 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		20FB3C3C2044447500DCE648 /* Resources */ = {
@@ -236,14 +173,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		20D5C9BD205DA5F600D0A956 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = microLogger;
-			targetProxy = 20D5C9BC205DA5F600D0A956 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		20FB3C452044447500DCE648 /* Main.storyboard */ = {
