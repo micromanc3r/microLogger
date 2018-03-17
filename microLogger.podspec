@@ -93,7 +93,7 @@ Just select appropriate loglevel for your debug or production build and you do n
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "microLogger", "microLogger/**/*.{h,m}"
+  s.source_files  = "microLogger", "microLogger/**/*.{h,m,swift}"
   s.exclude_files = "LogDemoApp"
 
   # s.public_header_files = "Classes/**/*.h"
