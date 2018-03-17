@@ -93,8 +93,8 @@ Just select appropriate loglevel for your debug or production build and you do n
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "microLogger", "microLogger/**/*.{h,m,swift}"
-  s.exclude_files = "LogDemoApp"
+  s.source_files  = "microLogger/**/*.{h,m,swift}"
+  s.exclude_files = "microLoggerTests/**/*.{swift}"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -113,6 +113,6 @@ Just select appropriate loglevel for your debug or production build and you do n
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
 
 end

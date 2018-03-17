@@ -31,6 +31,7 @@
 		20D5C99E205D86F100D0A956 /* microLoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = microLoggerTests.swift; sourceTree = "<group>"; };
 		20D5C9A0205D86F100D0A956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20D5C9AC205D88D600D0A956 /* MLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLogger.swift; sourceTree = "<group>"; };
+		20D5C9C1205DD5FE00D0A956 /* microLogger.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = microLogger.podspec; path = ../../microLogger.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +77,7 @@
 				20D5C9AC205D88D600D0A956 /* MLogger.swift */,
 				20D5C993205D86F100D0A956 /* microLogger.h */,
 				20D5C994205D86F100D0A956 /* Info.plist */,
+				20D5C9C1205DD5FE00D0A956 /* microLogger.podspec */,
 			);
 			path = microLogger;
 			sourceTree = "<group>";
