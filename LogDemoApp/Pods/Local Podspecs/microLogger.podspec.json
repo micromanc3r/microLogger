@@ -17,10 +17,7 @@
     "tag": "1.0.0"
   },
   "source_files": "microLogger/**/*.{h,m,swift}",
-  "exclude_files": [
-    "LICENSE",
-    "**/microLoggerTests/**/*.{swift}"
-  ],
+  "exclude_files": "**/microLoggerTests/**/*.{swift}",
   "pod_target_xcconfig": {
     "SWIFT_VERSION": "4.0"
   }

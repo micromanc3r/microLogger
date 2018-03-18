@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D75F3CD5CFE80804E64984ADEBEF718 /* microLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B20E11308FFE01B435DB70F308C8874 /* microLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1CD56C08E2BAA4594768AD8BF48AED4F /* microLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61162DDF53018E5391F2FBFF65F66110 /* microLogger-dummy.m */; };
+		0D75F3CD5CFE80804E64984ADEBEF718 /* microLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = EAC52707BE0AE4A13620EF7D8BE81455 /* microLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CD56C08E2BAA4594768AD8BF48AED4F /* microLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE08AB7D13D61D48D48D6A0DAB67AC5A /* microLogger-dummy.m */; };
 		47034D07116BABCE8B75962BD13574D0 /* Pods-microLoggerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A978E225D9E768A534F128C45DF1F38 /* Pods-microLoggerDemo-dummy.m */; };
-		5B4B5EEB07528524EE5ED7B652D1588A /* MLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9545D51162EA5895F85A7E6F5BB7FFA9 /* MLogger.swift */; };
-		5BB7F15B5821829F45585A3517D3F301 /* microLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A62D56FA336172C375567415EABDD3E8 /* microLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B4B5EEB07528524EE5ED7B652D1588A /* MLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4052974590855B5887C55D9DC46F8 /* MLogger.swift */; };
+		5BB7F15B5821829F45585A3517D3F301 /* microLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4754E133160CD5638DFABB054DC63B2 /* microLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BFC3959D1563DE2623B0C6A7B5932E0 /* Pods-microLoggerDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E90C15A86826D539AB0A40791C443E6 /* Pods-microLoggerDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		717F141E896A2E19FAD307D5F62F3BA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		7DA7F696C021CC79CAEB6AF3734CF057 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -29,30 +29,27 @@
 
 /* Begin PBXFileReference section */
 		0508AB625F2AB4DF14363988E22806FF /* Pods-microLoggerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-microLoggerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		20E17C0227425906AB8828E2A157DFAF /* microLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = microLogger.xcconfig; sourceTree = "<group>"; };
+		2D36D9F4E62308A7684CB9878F381BF5 /* microLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = microLogger.xcconfig; sourceTree = "<group>"; };
 		4077CF8FBDBB984299F2F74B0B54C288 /* Pods-microLoggerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-microLoggerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		4A978E225D9E768A534F128C45DF1F38 /* Pods-microLoggerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-microLoggerDemo-dummy.m"; sourceTree = "<group>"; };
-		4B20E11308FFE01B435DB70F308C8874 /* microLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = microLogger.h; path = microLogger/microLogger/microLogger.h; sourceTree = "<group>"; };
 		4CD0CC239C59E4C3C09114244EE59CDD /* Pods-microLoggerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-microLoggerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4CD2C3F47FA167001CB2BE59398BF2B2 /* microLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "microLogger-prefix.pch"; sourceTree = "<group>"; };
+		4FB4052974590855B5887C55D9DC46F8 /* MLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MLogger.swift; path = microLogger/microLogger/MLogger.swift; sourceTree = "<group>"; };
 		5F835D99772CDB5D99F9029ED4CCB11B /* MicroLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MicroLogger.framework; path = microLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		61162DDF53018E5391F2FBFF65F66110 /* microLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "microLogger-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74B62F687CA2AE63DEFFC87C40F8E692 /* microLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = microLogger.modulemap; sourceTree = "<group>"; };
 		7E90C15A86826D539AB0A40791C443E6 /* Pods-microLoggerDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-microLoggerDemo-umbrella.h"; sourceTree = "<group>"; };
 		938A5C899CD392570426DA9EDA18962D /* Pods-microLoggerDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-microLoggerDemo-resources.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94C07DC6405152648DF86E9D2E50160F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9545D51162EA5895F85A7E6F5BB7FFA9 /* MLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MLogger.swift; path = microLogger/microLogger/MLogger.swift; sourceTree = "<group>"; };
-		9BEE0727B58086E04DFBC4CE3630EFC5 /* microLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "microLogger-prefix.pch"; sourceTree = "<group>"; };
-		A07BEB27A2717E7D2EFAFCD72E37A5D1 /* microLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = microLogger.modulemap; sourceTree = "<group>"; };
 		A2907C10BBD22E789851FC0DFFCD569C /* Pods-microLoggerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-microLoggerDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		A62D56FA336172C375567415EABDD3E8 /* microLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "microLogger-umbrella.h"; sourceTree = "<group>"; };
 		A747C746456F3AA0C3F44F541968E1BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB64C180B4D280F467D87A133612F3E9 /* Pods_microLoggerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_microLoggerDemo.framework; path = "Pods-microLoggerDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD70DE895CAB268E36E9FD590DA25E16 /* microLogger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = microLogger.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D4754E133160CD5638DFABB054DC63B2 /* microLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "microLogger-umbrella.h"; sourceTree = "<group>"; };
 		D87849842FC9B767E66F420B245F0330 /* Pods-microLoggerDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-microLoggerDemo-frameworks.sh"; sourceTree = "<group>"; };
-		DA168938CB756981113E6C71F26966C8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		E4C3DED1DA6A88500124AE998FF4C822 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E403C0D1ACFC5C818CF9D1DAF0DA42A4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAC52707BE0AE4A13620EF7D8BE81455 /* microLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = microLogger.h; path = microLogger/microLogger/microLogger.h; sourceTree = "<group>"; };
 		F755DB45C690444E2B7AE4BB420924F7 /* Pods-microLoggerDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-microLoggerDemo.modulemap"; sourceTree = "<group>"; };
+		FE08AB7D13D61D48D48D6A0DAB67AC5A /* microLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "microLogger-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,33 +72,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3E03C3591F523D363C5190E7A29CE81F /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				99CCC85659110D7E12E367DC346FC857 /* microLogger */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		4BA0A86914C21390B771C0C1E1C348A4 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				E4C3DED1DA6A88500124AE998FF4C822 /* LICENSE */,
-				BD70DE895CAB268E36E9FD590DA25E16 /* microLogger.podspec */,
-				DA168938CB756981113E6C71F26966C8 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				3E03C3591F523D363C5190E7A29CE81F /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BAC3980F10278CFFD085DBEEAED8B745 /* Pods */,
 				96F6E65DC108653571B7BB499DF2CB0D /* Products */,
 				92AD3717990BFE8F94C4B933DDFC485D /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		81FCD0BF70F180EB0DFBA1C642FC3CE4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E403C0D1ACFC5C818CF9D1DAF0DA42A4 /* Info.plist */,
+				74B62F687CA2AE63DEFFC87C40F8E692 /* microLogger.modulemap */,
+				2D36D9F4E62308A7684CB9878F381BF5 /* microLogger.xcconfig */,
+				FE08AB7D13D61D48D48D6A0DAB67AC5A /* microLogger-dummy.m */,
+				4CD2C3F47FA167001CB2BE59398BF2B2 /* microLogger-prefix.pch */,
+				D4754E133160CD5638DFABB054DC63B2 /* microLogger-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/microLogger";
 			sourceTree = "<group>";
 		};
 		8E203D576B98E5AEDCA84949A8963941 /* Pods-microLoggerDemo */ = {
@@ -139,30 +132,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		99CCC85659110D7E12E367DC346FC857 /* microLogger */ = {
+		BAC3980F10278CFFD085DBEEAED8B745 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4B20E11308FFE01B435DB70F308C8874 /* microLogger.h */,
-				9545D51162EA5895F85A7E6F5BB7FFA9 /* MLogger.swift */,
-				4BA0A86914C21390B771C0C1E1C348A4 /* Pod */,
-				9ED03F83253D2C5C4DEED3718484DF66 /* Support Files */,
+				BE666F418DA0C819E0E46B03544F181F /* microLogger */,
 			);
-			name = microLogger;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		9ED03F83253D2C5C4DEED3718484DF66 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				94C07DC6405152648DF86E9D2E50160F /* Info.plist */,
-				A07BEB27A2717E7D2EFAFCD72E37A5D1 /* microLogger.modulemap */,
-				20E17C0227425906AB8828E2A157DFAF /* microLogger.xcconfig */,
-				61162DDF53018E5391F2FBFF65F66110 /* microLogger-dummy.m */,
-				9BEE0727B58086E04DFBC4CE3630EFC5 /* microLogger-prefix.pch */,
-				A62D56FA336172C375567415EABDD3E8 /* microLogger-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "LogDemoApp/Pods/Target Support Files/microLogger";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -171,6 +146,17 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE666F418DA0C819E0E46B03544F181F /* microLogger */ = {
+			isa = PBXGroup;
+			children = (
+				EAC52707BE0AE4A13620EF7D8BE81455 /* microLogger.h */,
+				4FB4052974590855B5887C55D9DC46F8 /* MLogger.swift */,
+				81FCD0BF70F180EB0DFBA1C642FC3CE4 /* Support Files */,
+			);
+			name = microLogger;
+			path = microLogger;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -332,7 +318,7 @@
 		};
 		1536D05CF5739B22ED3A36ED649E389C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20E17C0227425906AB8828E2A157DFAF /* microLogger.xcconfig */;
+			baseConfigurationReference = 2D36D9F4E62308A7684CB9878F381BF5 /* microLogger.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -478,7 +464,7 @@
 		};
 		A0960E3E19F04398BE3D2B6E19E1C928 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20E17C0227425906AB8828E2A157DFAF /* microLogger.xcconfig */;
+			baseConfigurationReference = 2D36D9F4E62308A7684CB9878F381BF5 /* microLogger.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

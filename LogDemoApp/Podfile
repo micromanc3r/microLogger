@@ -8,7 +8,7 @@ target 'microLoggerDemo' do
   use_frameworks!
 
   # Pods for microLoggerDemo
-#  pod 'microLogger', :git => 'https://github.com/micromanc3r/microLogger.git', :tag => '1.0.0'
-  pod 'microLogger', :path => '../', :tag => '1.0.0'
+  pod 'microLogger', :git => 'https://github.com/micromanc3r/microLogger.git', :tag => '1.0.0'
+#  pod 'microLogger', :path => '../', :tag => '1.0.0'
 
 end

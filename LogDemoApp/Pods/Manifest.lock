@@ -2,16 +2,21 @@ PODS:
   - microLogger (1.0.0)
 
 DEPENDENCIES:
-  - microLogger (from `../`)
+  - microLogger (from `https://github.com/micromanc3r/microLogger.git`, tag `1.0.0`)
 
 EXTERNAL SOURCES:
   microLogger:
-    :path: ../
+    :git: https://github.com/micromanc3r/microLogger.git
+    :tag: 1.0.0
+
+CHECKOUT OPTIONS:
+  microLogger:
+    :git: https://github.com/micromanc3r/microLogger.git
     :tag: 1.0.0
 
 SPEC CHECKSUMS:
-  microLogger: 52ae92d656462b35850a898c5a84ab59313dd69f
+  microLogger: e52e867fab3af2709e1bea67e6809efcebfd83da
 
-PODFILE CHECKSUM: a69c1d0c846375278bda455b3813671859572e91
+PODFILE CHECKSUM: 56f022e56dd4d711eefe7a79f97f22483e555ed4
 
 COCOAPODS: 1.4.0
