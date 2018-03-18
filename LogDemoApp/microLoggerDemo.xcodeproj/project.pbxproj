@@ -12,6 +12,7 @@
 		20FB3C472044447500DCE648 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20FB3C452044447500DCE648 /* Main.storyboard */; };
 		20FB3C492044447500DCE648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20FB3C482044447500DCE648 /* Assets.xcassets */; };
 		20FB3C4C2044447500DCE648 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20FB3C4A2044447500DCE648 /* LaunchScreen.storyboard */; };
+		886459F933A1F72C9AD55665 /* Pods_microLoggerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F36EEFD34C9DE276E84B712 /* Pods_microLoggerDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,9 @@
 		20FB3C482044447500DCE648 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20FB3C4B2044447500DCE648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20FB3C4D2044447500DCE648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F36EEFD34C9DE276E84B712 /* Pods_microLoggerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_microLoggerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75991AFF7E311FF0E8B1C2E6 /* Pods-microLoggerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-microLoggerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-microLoggerDemo/Pods-microLoggerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7E06D5DF7B6BD096FDBCD155 /* Pods-microLoggerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-microLoggerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-microLoggerDemo/Pods-microLoggerDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				886459F933A1F72C9AD55665 /* Pods_microLoggerDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +58,8 @@
 			children = (
 				20FB3C402044447500DCE648 /* microLoggerDemo */,
 				20FB3C3F2044447500DCE648 /* Products */,
+				2287DA9D26193ECDED8A57B8 /* Pods */,
+				5D1FAE5DCC04900D3585F1CF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +84,23 @@
 			path = microLoggerDemo;
 			sourceTree = "<group>";
 		};
+		2287DA9D26193ECDED8A57B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75991AFF7E311FF0E8B1C2E6 /* Pods-microLoggerDemo.debug.xcconfig */,
+				7E06D5DF7B6BD096FDBCD155 /* Pods-microLoggerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5D1FAE5DCC04900D3585F1CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F36EEFD34C9DE276E84B712 /* Pods_microLoggerDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -84,11 +108,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20FB3C5B2044447500DCE648 /* Build configuration list for PBXNativeTarget "microLoggerDemo" */;
 			buildPhases = (
+				CF939143A564F3488B876EE5 /* [CP] Check Pods Manifest.lock */,
 				20FB3C61204445A600DCE648 /* ShellScript */,
 				20FB3C3A2044447500DCE648 /* Sources */,
 				20FB3C3B2044447500DCE648 /* Frameworks */,
 				20FB3C3C2044447500DCE648 /* Resources */,
 				20D5C9BE205DA5F600D0A956 /* Embed Frameworks */,
+				1731DCFE52E0CE982DD2718B /* [CP] Embed Pods Frameworks */,
+				8362240378066C3915744E5F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -147,6 +174,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1731DCFE52E0CE982DD2718B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-microLoggerDemo/Pods-microLoggerDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/microLogger/MicroLogger.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MicroLogger.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-microLoggerDemo/Pods-microLoggerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		20FB3C61204445A600DCE648 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -159,6 +204,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		8362240378066C3915744E5F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-microLoggerDemo/Pods-microLoggerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF939143A564F3488B876EE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-microLoggerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -303,6 +381,7 @@
 		};
 		20FB3C5C2044447500DCE648 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75991AFF7E311FF0E8B1C2E6 /* Pods-microLoggerDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -319,6 +398,7 @@
 		};
 		20FB3C5D2044447500DCE648 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E06D5DF7B6BD096FDBCD155 /* Pods-microLoggerDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;

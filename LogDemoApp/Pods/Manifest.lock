@@ -1,0 +1,17 @@
+PODS:
+  - microLogger (1.0.0)
+
+DEPENDENCIES:
+  - microLogger (from `../`)
+
+EXTERNAL SOURCES:
+  microLogger:
+    :path: ../
+    :tag: 1.0.0
+
+SPEC CHECKSUMS:
+  microLogger: 52ae92d656462b35850a898c5a84ab59313dd69f
+
+PODFILE CHECKSUM: a69c1d0c846375278bda455b3813671859572e91
+
+COCOAPODS: 1.4.0

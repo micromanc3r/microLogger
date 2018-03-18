@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "microLogger"
+  s.module_name   = "MicroLogger"
   s.version      = "1.0.0"
   s.summary      = "Lightweight logger for your swift app."
 
@@ -94,7 +95,7 @@ Just select appropriate loglevel for your debug or production build and you do n
   #
 
   s.source_files  = "microLogger/**/*.{h,m,swift}"
-  s.exclude_files = "microLoggerTests/**/*.{swift}"
+  s.exclude_files = "**/microLoggerTests/**/*.{swift}"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -113,6 +114,6 @@ Just select appropriate loglevel for your debug or production build and you do n
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
 
 end

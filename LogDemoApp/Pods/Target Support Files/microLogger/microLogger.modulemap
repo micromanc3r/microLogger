@@ -1,0 +1,6 @@
+framework module MicroLogger {
+  umbrella header "microLogger-umbrella.h"
+
+  export *
+  module * { export * }
+}

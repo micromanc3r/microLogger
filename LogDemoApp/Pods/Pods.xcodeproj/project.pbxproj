@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D75F3CD5CFE80804E64984ADEBEF718 /* microLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B20E11308FFE01B435DB70F308C8874 /* microLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CD56C08E2BAA4594768AD8BF48AED4F /* microLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61162DDF53018E5391F2FBFF65F66110 /* microLogger-dummy.m */; };
+		47034D07116BABCE8B75962BD13574D0 /* Pods-microLoggerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A978E225D9E768A534F128C45DF1F38 /* Pods-microLoggerDemo-dummy.m */; };
+		5B4B5EEB07528524EE5ED7B652D1588A /* MLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9545D51162EA5895F85A7E6F5BB7FFA9 /* MLogger.swift */; };
+		5BB7F15B5821829F45585A3517D3F301 /* microLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A62D56FA336172C375567415EABDD3E8 /* microLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BFC3959D1563DE2623B0C6A7B5932E0 /* Pods-microLoggerDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E90C15A86826D539AB0A40791C443E6 /* Pods-microLoggerDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		717F141E896A2E19FAD307D5F62F3BA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7DA7F696C021CC79CAEB6AF3734CF057 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		061FC5478D265384CD65813097F4CA50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5E7AE4558A229BBB2C07250D40FC609;
+			remoteInfo = microLogger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0508AB625F2AB4DF14363988E22806FF /* Pods-microLoggerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-microLoggerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		20E17C0227425906AB8828E2A157DFAF /* microLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = microLogger.xcconfig; sourceTree = "<group>"; };
+		4077CF8FBDBB984299F2F74B0B54C288 /* Pods-microLoggerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-microLoggerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		4A978E225D9E768A534F128C45DF1F38 /* Pods-microLoggerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-microLoggerDemo-dummy.m"; sourceTree = "<group>"; };
+		4B20E11308FFE01B435DB70F308C8874 /* microLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = microLogger.h; path = microLogger/microLogger/microLogger.h; sourceTree = "<group>"; };
+		4CD0CC239C59E4C3C09114244EE59CDD /* Pods-microLoggerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-microLoggerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5F835D99772CDB5D99F9029ED4CCB11B /* MicroLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MicroLogger.framework; path = microLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61162DDF53018E5391F2FBFF65F66110 /* microLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "microLogger-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7E90C15A86826D539AB0A40791C443E6 /* Pods-microLoggerDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-microLoggerDemo-umbrella.h"; sourceTree = "<group>"; };
+		938A5C899CD392570426DA9EDA18962D /* Pods-microLoggerDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-microLoggerDemo-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94C07DC6405152648DF86E9D2E50160F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9545D51162EA5895F85A7E6F5BB7FFA9 /* MLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MLogger.swift; path = microLogger/microLogger/MLogger.swift; sourceTree = "<group>"; };
+		9BEE0727B58086E04DFBC4CE3630EFC5 /* microLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "microLogger-prefix.pch"; sourceTree = "<group>"; };
+		A07BEB27A2717E7D2EFAFCD72E37A5D1 /* microLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = microLogger.modulemap; sourceTree = "<group>"; };
+		A2907C10BBD22E789851FC0DFFCD569C /* Pods-microLoggerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-microLoggerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A62D56FA336172C375567415EABDD3E8 /* microLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "microLogger-umbrella.h"; sourceTree = "<group>"; };
+		A747C746456F3AA0C3F44F541968E1BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB64C180B4D280F467D87A133612F3E9 /* Pods_microLoggerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_microLoggerDemo.framework; path = "Pods-microLoggerDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD70DE895CAB268E36E9FD590DA25E16 /* microLogger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = microLogger.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D87849842FC9B767E66F420B245F0330 /* Pods-microLoggerDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-microLoggerDemo-frameworks.sh"; sourceTree = "<group>"; };
+		DA168938CB756981113E6C71F26966C8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E4C3DED1DA6A88500124AE998FF4C822 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F755DB45C690444E2B7AE4BB420924F7 /* Pods-microLoggerDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-microLoggerDemo.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F3C3D8F673F39F5C98D3B4D1BA82F01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DA7F696C021CC79CAEB6AF3734CF057 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E606A678CF9293C742C384ECBADBC18E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717F141E896A2E19FAD307D5F62F3BA3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E03C3591F523D363C5190E7A29CE81F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99CCC85659110D7E12E367DC346FC857 /* microLogger */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4BA0A86914C21390B771C0C1E1C348A4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E4C3DED1DA6A88500124AE998FF4C822 /* LICENSE */,
+				BD70DE895CAB268E36E9FD590DA25E16 /* microLogger.podspec */,
+				DA168938CB756981113E6C71F26966C8 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				3E03C3591F523D363C5190E7A29CE81F /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				96F6E65DC108653571B7BB499DF2CB0D /* Products */,
+				92AD3717990BFE8F94C4B933DDFC485D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8E203D576B98E5AEDCA84949A8963941 /* Pods-microLoggerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A747C746456F3AA0C3F44F541968E1BA /* Info.plist */,
+				F755DB45C690444E2B7AE4BB420924F7 /* Pods-microLoggerDemo.modulemap */,
+				0508AB625F2AB4DF14363988E22806FF /* Pods-microLoggerDemo-acknowledgements.markdown */,
+				4077CF8FBDBB984299F2F74B0B54C288 /* Pods-microLoggerDemo-acknowledgements.plist */,
+				4A978E225D9E768A534F128C45DF1F38 /* Pods-microLoggerDemo-dummy.m */,
+				D87849842FC9B767E66F420B245F0330 /* Pods-microLoggerDemo-frameworks.sh */,
+				938A5C899CD392570426DA9EDA18962D /* Pods-microLoggerDemo-resources.sh */,
+				7E90C15A86826D539AB0A40791C443E6 /* Pods-microLoggerDemo-umbrella.h */,
+				A2907C10BBD22E789851FC0DFFCD569C /* Pods-microLoggerDemo.debug.xcconfig */,
+				4CD0CC239C59E4C3C09114244EE59CDD /* Pods-microLoggerDemo.release.xcconfig */,
+			);
+			name = "Pods-microLoggerDemo";
+			path = "Target Support Files/Pods-microLoggerDemo";
+			sourceTree = "<group>";
+		};
+		92AD3717990BFE8F94C4B933DDFC485D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E203D576B98E5AEDCA84949A8963941 /* Pods-microLoggerDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		96F6E65DC108653571B7BB499DF2CB0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F835D99772CDB5D99F9029ED4CCB11B /* MicroLogger.framework */,
+				AB64C180B4D280F467D87A133612F3E9 /* Pods_microLoggerDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99CCC85659110D7E12E367DC346FC857 /* microLogger */ = {
+			isa = PBXGroup;
+			children = (
+				4B20E11308FFE01B435DB70F308C8874 /* microLogger.h */,
+				9545D51162EA5895F85A7E6F5BB7FFA9 /* MLogger.swift */,
+				4BA0A86914C21390B771C0C1E1C348A4 /* Pod */,
+				9ED03F83253D2C5C4DEED3718484DF66 /* Support Files */,
+			);
+			name = microLogger;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9ED03F83253D2C5C4DEED3718484DF66 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				94C07DC6405152648DF86E9D2E50160F /* Info.plist */,
+				A07BEB27A2717E7D2EFAFCD72E37A5D1 /* microLogger.modulemap */,
+				20E17C0227425906AB8828E2A157DFAF /* microLogger.xcconfig */,
+				61162DDF53018E5391F2FBFF65F66110 /* microLogger-dummy.m */,
+				9BEE0727B58086E04DFBC4CE3630EFC5 /* microLogger-prefix.pch */,
+				A62D56FA336172C375567415EABDD3E8 /* microLogger-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "LogDemoApp/Pods/Target Support Files/microLogger";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		24E3D4E52460E082B910E2BA688F9344 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB7F15B5821829F45585A3517D3F301 /* microLogger-umbrella.h in Headers */,
+				0D75F3CD5CFE80804E64984ADEBEF718 /* microLogger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB3DADAF30BD240942792316EF16A18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BFC3959D1563DE2623B0C6A7B5932E0 /* Pods-microLoggerDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5DB839CE40EC35927E86CFF7D85EA328 /* Pods-microLoggerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D58C4F71C4661D65E32F4B01CAD27E7 /* Build configuration list for PBXNativeTarget "Pods-microLoggerDemo" */;
+			buildPhases = (
+				D1FCDDFE0C2AB85790FF417B83EDC289 /* Sources */,
+				1F3C3D8F673F39F5C98D3B4D1BA82F01 /* Frameworks */,
+				8AB3DADAF30BD240942792316EF16A18 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBEB90CFC9B445B92C97B1E2AB58C7B2 /* PBXTargetDependency */,
+			);
+			name = "Pods-microLoggerDemo";
+			productName = "Pods-microLoggerDemo";
+			productReference = AB64C180B4D280F467D87A133612F3E9 /* Pods_microLoggerDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F5E7AE4558A229BBB2C07250D40FC609 /* microLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7515969FBB3FA409BAEB76EA07D1D3DC /* Build configuration list for PBXNativeTarget "microLogger" */;
+			buildPhases = (
+				98C939F9DDC33C0BC5637232988088E8 /* Sources */,
+				E606A678CF9293C742C384ECBADBC18E /* Frameworks */,
+				24E3D4E52460E082B910E2BA688F9344 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = microLogger;
+			productName = microLogger;
+			productReference = 5F835D99772CDB5D99F9029ED4CCB11B /* MicroLogger.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 96F6E65DC108653571B7BB499DF2CB0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5E7AE4558A229BBB2C07250D40FC609 /* microLogger */,
+				5DB839CE40EC35927E86CFF7D85EA328 /* Pods-microLoggerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98C939F9DDC33C0BC5637232988088E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CD56C08E2BAA4594768AD8BF48AED4F /* microLogger-dummy.m in Sources */,
+				5B4B5EEB07528524EE5ED7B652D1588A /* MLogger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1FCDDFE0C2AB85790FF417B83EDC289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47034D07116BABCE8B75962BD13574D0 /* Pods-microLoggerDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBEB90CFC9B445B92C97B1E2AB58C7B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = microLogger;
+			target = F5E7AE4558A229BBB2C07250D40FC609 /* microLogger */;
+			targetProxy = 061FC5478D265384CD65813097F4CA50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B2A581447781658616EFC6CD88F056A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2907C10BBD22E789851FC0DFFCD569C /* Pods-microLoggerDemo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-microLoggerDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-microLoggerDemo/Pods-microLoggerDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_microLoggerDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1536D05CF5739B22ED3A36ED649E389C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20E17C0227425906AB8828E2A157DFAF /* microLogger.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/microLogger/microLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/microLogger/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/microLogger/microLogger.modulemap";
+				PRODUCT_NAME = MicroLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C07ED8089F70A31B83996A8910D7F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		98F29E7567052F62660DDD7069ADF73C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A0960E3E19F04398BE3D2B6E19E1C928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20E17C0227425906AB8828E2A157DFAF /* microLogger.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/microLogger/microLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/microLogger/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/microLogger/microLogger.modulemap";
+				PRODUCT_NAME = MicroLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF9EB53BD152CFEC348A71945165C3B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CD0CC239C59E4C3C09114244EE59CDD /* Pods-microLoggerDemo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-microLoggerDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-microLoggerDemo/Pods-microLoggerDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_microLoggerDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C07ED8089F70A31B83996A8910D7F18 /* Debug */,
+				98F29E7567052F62660DDD7069ADF73C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D58C4F71C4661D65E32F4B01CAD27E7 /* Build configuration list for PBXNativeTarget "Pods-microLoggerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B2A581447781658616EFC6CD88F056A /* Debug */,
+				EF9EB53BD152CFEC348A71945165C3B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7515969FBB3FA409BAEB76EA07D1D3DC /* Build configuration list for PBXNativeTarget "microLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1536D05CF5739B22ED3A36ED649E389C /* Debug */,
+				A0960E3E19F04398BE3D2B6E19E1C928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
