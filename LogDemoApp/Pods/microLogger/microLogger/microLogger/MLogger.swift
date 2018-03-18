@@ -8,25 +8,25 @@
 
 import Foundation
 
-public enum MLogLevel: Int { //treba prefixy?
-    case verbose = 0
-    case debug = 1
-    case warning = 2
-    case error = 3
+public enum MLogLevel: Int {
+    case verbose    = 0
+    case debug      = 1
+    case warning    = 2
+    case error      = 3
 }
 
 public class MLogger {
     
-    private static let verboseTag = "VERBOSE"
-    private static let debugTag = "DEBUG"
-    private static let warningTag = "WARNING"
-    private static let errorTag = "ERROR"
+    static let verboseTag   = "VERBOSE"
+    static let debugTag     = "DEBUG"
+    static let warningTag   = "WARNING"
+    static let errorTag     = "ERROR"
     
-    private static let microTimeFormat = "dd.MM.yyyy | HH:mm:ss.SSS"
-    private static let formatter = DateFormatter()
+    static let microDateFormat = "dd.MM.yyyy | HH:mm:ss.SSS"
+    static let formatter = DateFormatter()
     
     public static var logLevel: MLogLevel = .error
-    public static var logTimeFormat: String?
+    public static var logDateFormat: String?
     
     ////////////////////////////////
     // MARK: - public log methods
@@ -77,16 +77,20 @@ public class MLogger {
     }
     
     class func microLog(withLevel lvlTag: String, sender: Any, message: String) {
-        let stringTag = tagFrom(sender: sender)
+        let stringTag = tag(from: sender)
         print(formatedTimestamp(), "|", lvlTag, "|", stringTag, "|", message)
     }
     
     class func formatedTimestamp() -> String {
-        formatter.dateFormat = logTimeFormat ?? microTimeFormat
-        return formatter.string(from: Date())
+        return formatedTimestamp(from: Date())
     }
     
-    class func tagFrom(sender: Any) -> String {
+    class func formatedTimestamp(from date: Date) -> String {
+        formatter.dateFormat = logDateFormat ?? microDateFormat
+        return formatter.string(from: date)
+    }
+    
+    class func tag(from sender: Any) -> String {
         return NSStringFromClass((type(of: sender) as? AnyClass) ?? sender as? AnyClass ?? MLogger.self)
     }
     
