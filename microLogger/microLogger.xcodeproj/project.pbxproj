@@ -8,9 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		20D5C99A205D86F100D0A956 /* MicroLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D5C990205D86F100D0A956 /* MicroLogger.framework */; };
-		20D5C99F205D86F100D0A956 /* microLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D5C99E205D86F100D0A956 /* microLoggerTests.swift */; };
+		20D5C99F205D86F100D0A956 /* MLogLevelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D5C99E205D86F100D0A956 /* MLogLevelTests.swift */; };
 		20D5C9A1205D86F100D0A956 /* microLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 20D5C993205D86F100D0A956 /* microLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		20D5C9AD205D88D600D0A956 /* MLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D5C9AC205D88D600D0A956 /* MLogger.swift */; };
+		20D5C9C5205E727200D0A956 /* TimeFormatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D5C9C4205E727200D0A956 /* TimeFormatTests.swift */; };
+		20D5C9C7205E7EBD00D0A956 /* TagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D5C9C6205E7EBD00D0A956 /* TagTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,10 +30,12 @@
 		20D5C993205D86F100D0A956 /* microLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = microLogger.h; sourceTree = "<group>"; };
 		20D5C994205D86F100D0A956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20D5C999205D86F100D0A956 /* microLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = microLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		20D5C99E205D86F100D0A956 /* microLoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = microLoggerTests.swift; sourceTree = "<group>"; };
+		20D5C99E205D86F100D0A956 /* MLogLevelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLogLevelTests.swift; sourceTree = "<group>"; };
 		20D5C9A0205D86F100D0A956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20D5C9AC205D88D600D0A956 /* MLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLogger.swift; sourceTree = "<group>"; };
 		20D5C9C1205DD5FE00D0A956 /* microLogger.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = microLogger.podspec; path = ../../microLogger.podspec; sourceTree = "<group>"; };
+		20D5C9C4205E727200D0A956 /* TimeFormatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormatTests.swift; sourceTree = "<group>"; };
+		20D5C9C6205E7EBD00D0A956 /* TagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +89,9 @@
 		20D5C99D205D86F100D0A956 /* microLoggerTests */ = {
 			isa = PBXGroup;
 			children = (
-				20D5C99E205D86F100D0A956 /* microLoggerTests.swift */,
+				20D5C99E205D86F100D0A956 /* MLogLevelTests.swift */,
+				20D5C9C4205E727200D0A956 /* TimeFormatTests.swift */,
+				20D5C9C6205E7EBD00D0A956 /* TagTests.swift */,
 				20D5C9A0205D86F100D0A956 /* Info.plist */,
 			);
 			path = microLoggerTests;
@@ -109,6 +115,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20D5C9A4205D86F100D0A956 /* Build configuration list for PBXNativeTarget "MicroLogger" */;
 			buildPhases = (
+				20D5C9C3205E6F9D00D0A956 /* ShellScript */,
 				20D5C98B205D86F100D0A956 /* Sources */,
 				20D5C98C205D86F100D0A956 /* Frameworks */,
 				20D5C98D205D86F100D0A956 /* Headers */,
@@ -197,6 +204,22 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		20D5C9C3205E6F9D00D0A956 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		20D5C98B205D86F100D0A956 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -210,7 +233,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20D5C99F205D86F100D0A956 /* microLoggerTests.swift in Sources */,
+				20D5C99F205D86F100D0A956 /* MLogLevelTests.swift in Sources */,
+				20D5C9C7205E7EBD00D0A956 /* TagTests.swift in Sources */,
+				20D5C9C5205E727200D0A956 /* TimeFormatTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
