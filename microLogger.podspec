@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name         = "microLogger"
   s.module_name   = "MicroLogger"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Lightweight logger for your swift app."
   s.description  = <<-DESC
 Ideal sollution for your swift app when you want to have a simple control over your logged messages.
