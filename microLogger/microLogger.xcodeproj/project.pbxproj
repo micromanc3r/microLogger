@@ -11,8 +11,8 @@
 		20D5C99F205D86F100D0A956 /* MLogLevelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D5C99E205D86F100D0A956 /* MLogLevelTests.swift */; };
 		20D5C9A1205D86F100D0A956 /* microLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 20D5C993205D86F100D0A956 /* microLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		20D5C9AD205D88D600D0A956 /* MLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D5C9AC205D88D600D0A956 /* MLogger.swift */; };
-		20D5C9C5205E727200D0A956 /* TimeFormatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D5C9C4205E727200D0A956 /* TimeFormatTests.swift */; };
 		20D5C9C7205E7EBD00D0A956 /* TagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D5C9C6205E7EBD00D0A956 /* TagTests.swift */; };
+		20FAA9BE205FE7F7004A6CFA /* TimeFormatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D5C9C4205E727200D0A956 /* TimeFormatTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -235,7 +235,7 @@
 			files = (
 				20D5C99F205D86F100D0A956 /* MLogLevelTests.swift in Sources */,
 				20D5C9C7205E7EBD00D0A956 /* TagTests.swift in Sources */,
-				20D5C9C5205E727200D0A956 /* TimeFormatTests.swift in Sources */,
+				20FAA9BE205FE7F7004A6CFA /* TimeFormatTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +299,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -353,7 +353,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

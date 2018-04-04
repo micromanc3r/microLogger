@@ -14,7 +14,7 @@ Just select appropriate loglevel for your debug or production build and you do n
   s.license      = "MIT"
   s.author             = { "Miroslav Sliacky" => "micromanc3r@gmail.com" }
 
-  s.platform     = :ios, "10.0"
+  s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/micromanc3r/microLogger.git", :tag => "#{s.version}" }
   s.source_files  = "microLogger/**/*.{h,m,swift}"
   s.exclude_files = "**/microLoggerTests/**/*.{swift}"
