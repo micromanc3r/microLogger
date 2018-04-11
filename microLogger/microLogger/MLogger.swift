@@ -17,10 +17,10 @@ public enum MLogLevel: Int {
 
 public class MLogger {
     
-    static let verboseTag   = "VERBOSE"
-    static let debugTag     = "DEBUG"
-    static let warningTag   = "WARNING"
-    static let errorTag     = "ERROR"
+    static let verboseTag   = "=VERBOSE="
+    static let debugTag     = "==DEBUG=="
+    static let warningTag   = "=WARNING="
+    static let errorTag     = "==ERROR=="
     
     static let microDateFormat = "dd.MM.yyyy | HH:mm:ss.SSS"
     static let formatter = DateFormatter()
