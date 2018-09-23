@@ -25,8 +25,12 @@ public class MLogger {
     static let microDateFormat = "dd.MM.yyyy | HH:mm:ss.SSS"
     static let formatter = DateFormatter()
     
+    static var file1: UnsafeMutablePointer<FILE>!
+    static var file2: UnsafeMutablePointer<FILE>!
+    
     public static var logLevel: MLogLevel = .error
     public static var logDateFormat: String?
+    public static var logFileName: String = "/application_log.txt"
     
     ////////////////////////////////
     // MARK: - public log methods
@@ -68,6 +72,24 @@ public class MLogger {
         self.microLog(withLevel: errorTag,
                       sender: sender,
                       message: message)
+    }
+    
+    ////////////////////////////////
+    // MARK: - Redirect logs to document
+    public class func redirectLogToDocuments() {
+        let allPaths = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.documentDirectory,
+                                                           FileManager.SearchPathDomainMask.userDomainMask,
+                                                           true)
+        if let documentsDirectory = allPaths.first {
+            let pathForLog = documentsDirectory + logFileName
+            file1 = freopen(pathForLog.cString(using: String.Encoding.ascii), "a+", stderr)
+            file2 = freopen(pathForLog.cString(using: String.Encoding.ascii), "a+", stdout)
+        }
+    }
+    
+    public class func stopRedirectLogToDocuments() {
+        fclose(file1)
+        fclose(file2)
     }
     
     ////////////////////////////////
