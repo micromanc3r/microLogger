@@ -35,7 +35,7 @@ public class MLogger {
     ////////////////////////////////
     // MARK: - public log methods
     public class func logVerbose(sender: Any, andMessage message: String) {
-        guard canLog(forLevel: .verbose) else {
+        guard canLog(level: .verbose) else {
             return
         }
         
@@ -45,7 +45,7 @@ public class MLogger {
     }
     
     public class func logDebug(sender: Any, andMessage message: String) {
-        guard canLog(forLevel: .debug) else {
+        guard canLog(level: .debug) else {
             return
         }
         
@@ -55,7 +55,7 @@ public class MLogger {
     }
     
     public class func logWarning(sender: Any, andMessage message: String) {
-        guard canLog(forLevel: .warning) else {
+        guard canLog(level: .warning) else {
             return
         }
         
@@ -65,7 +65,7 @@ public class MLogger {
     }
     
     public class func logError(sender: Any, andMessage message: String) {
-        guard canLog(forLevel: .error) else {
+        guard canLog(level: .error) else {
             return
         }
         
@@ -94,7 +94,7 @@ public class MLogger {
     
     ////////////////////////////////
     // MARK: - Private methods
-    class func canLog(forLevel level: MLogLevel) -> Bool {
+    class func canLog(level: MLogLevel) -> Bool {
         return logLevel.rawValue <= level.rawValue
     }
     

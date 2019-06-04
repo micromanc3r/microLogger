@@ -22,37 +22,37 @@ class MLogLevelTests: XCTestCase {
     func testVerbose() {
         MLogger.logLevel = .verbose
         
-        XCTAssertTrue(MLogger.canLog(forLevel: .verbose))
-        XCTAssertTrue(MLogger.canLog(forLevel: .debug))
-        XCTAssertTrue(MLogger.canLog(forLevel: .warning))
-        XCTAssertTrue(MLogger.canLog(forLevel: .error))
+        XCTAssertTrue(MLogger.canLog(level: .verbose))
+        XCTAssertTrue(MLogger.canLog(level: .debug))
+        XCTAssertTrue(MLogger.canLog(level: .warning))
+        XCTAssertTrue(MLogger.canLog(level: .error))
     }
     
     func testDebug() {
         MLogger.logLevel = .debug
         
-        XCTAssertFalse(MLogger.canLog(forLevel: .verbose))
-        XCTAssertTrue(MLogger.canLog(forLevel: .debug))
-        XCTAssertTrue(MLogger.canLog(forLevel: .warning))
-        XCTAssertTrue(MLogger.canLog(forLevel: .error))
+        XCTAssertFalse(MLogger.canLog(level: .verbose))
+        XCTAssertTrue(MLogger.canLog(level: .debug))
+        XCTAssertTrue(MLogger.canLog(level: .warning))
+        XCTAssertTrue(MLogger.canLog(level: .error))
     }
     
     func testWarning() {
         MLogger.logLevel = .warning
         
-        XCTAssertFalse(MLogger.canLog(forLevel: .verbose))
-        XCTAssertFalse(MLogger.canLog(forLevel: .debug))
-        XCTAssertTrue(MLogger.canLog(forLevel: .warning))
-        XCTAssertTrue(MLogger.canLog(forLevel: .error))
+        XCTAssertFalse(MLogger.canLog(level: .verbose))
+        XCTAssertFalse(MLogger.canLog(level: .debug))
+        XCTAssertTrue(MLogger.canLog(level: .warning))
+        XCTAssertTrue(MLogger.canLog(level: .error))
     }
     
     func testError() {
         MLogger.logLevel = .error
         
-        XCTAssertFalse(MLogger.canLog(forLevel: .verbose))
-        XCTAssertFalse(MLogger.canLog(forLevel: .debug))
-        XCTAssertFalse(MLogger.canLog(forLevel: .warning))
-        XCTAssertTrue(MLogger.canLog(forLevel: .error))
+        XCTAssertFalse(MLogger.canLog(level: .verbose))
+        XCTAssertFalse(MLogger.canLog(level: .debug))
+        XCTAssertFalse(MLogger.canLog(level: .warning))
+        XCTAssertTrue(MLogger.canLog(level: .error))
     }
     
 }
