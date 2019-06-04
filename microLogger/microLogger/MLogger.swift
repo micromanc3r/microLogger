@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import os.log
 
 public enum MLogLevel: Int {
     case verbose    = 0
@@ -100,7 +101,8 @@ public class MLogger {
     
     class func microLog(withLevel lvlTag: String, sender: Any, message: String) {
         let stringTag = tag(from: sender)
-        print(formatedTimestamp(), "|", lvlTag, "|", stringTag, "|", message)
+        let osLog = OSLog(subsystem: Bundle.main.bundleIdentifier ?? "microLogger", category: stringTag)
+        os_log("%{PUBLIC}@ | %{PUBLIC}@", log: osLog, type: .debug, lvlTag, message)
     }
     
     class func formatedTimestamp() -> String {
