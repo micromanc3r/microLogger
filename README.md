@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/micromanc3r/microLogger.svg?branch=master)](https://travis-ci.com/micromanc3r/microLogger)
 # microLogger
 Lightweight swift logger
 
