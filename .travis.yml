@@ -1,0 +1,6 @@
+language: swift
+osx_image: xcode11.2	
+os: osx
+xcode_project: microLogger/microLogger.xcodeproj
+xcode_scheme: MicroLogger
+xcode_destination: platform=iOS Simulator,OS=11.3,name=iPhone X
