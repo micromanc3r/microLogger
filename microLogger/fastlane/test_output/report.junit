@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='microLoggerTests.xctest' tests='7' failures='0'>
+  <testsuite name='microLoggerTests.MLogLevelTests' tests='4' failures='0'>
+    <testcase classname='microLoggerTests.MLogLevelTests' name='testDebug' time='0.001'/>
+    <testcase classname='microLoggerTests.MLogLevelTests' name='testError' time='0.001'/>
+    <testcase classname='microLoggerTests.MLogLevelTests' name='testVerbose' time='0.001'/>
+    <testcase classname='microLoggerTests.MLogLevelTests' name='testWarning' time='0.000'/>
+  </testsuite>
+  <testsuite name='microLoggerTests.TagTests' tests='1' failures='0'>
+    <testcase classname='microLoggerTests.TagTests' name='testTag' time='10.514'/>
+  </testsuite>
+  <testsuite name='microLoggerTests.TimeFormatTests' tests='2' failures='0'>
+    <testcase classname='microLoggerTests.TimeFormatTests' name='testDefaultTimeFormat' time='0.001'/>
+    <testcase classname='microLoggerTests.TimeFormatTests' name='testSystemTimeFormat' time='0.001'/>
+  </testsuite>
+</testsuites>
